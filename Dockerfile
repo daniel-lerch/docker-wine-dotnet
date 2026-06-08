@@ -1,6 +1,6 @@
 FROM tobix/wine:stable
 
-RUN apt-get update -y && apt-get install -y --no-install-recommends wget xdotool unzip cabextract mariadb-client && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y && apt-get install -y --no-install-recommends wget xdotool unzip cabextract git mariadb-client && rm -rf /var/lib/apt/lists/*
 
 RUN set -x \
 && wget --no-verbose https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks -O /usr/bin/winetricks \

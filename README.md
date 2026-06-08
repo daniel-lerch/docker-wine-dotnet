@@ -13,6 +13,7 @@ This image adds:
 - .NET SDK 8.0
 - Winetricks
 - Core fonts
+- Git
 - MariaDB client
 
 Run .NET CLI from a non-interactive, headless system e.g., CI pipeline (simulates a TTY):
